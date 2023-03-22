@@ -1,0 +1,509 @@
+* {
+  /* box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; */
+}
+
+/* --------------------------------------------CSS coding for nav bar------------------------------------------------------------- */
+.navBar {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: blue;
+
+}
+
+.left {
+  border: 3px solid;
+  align-content: flex-start;
+  list-style-type: none;
+  display: inline-flex;
+  background-color: aqua;
+
+}
+
+.left ul {
+  list-style-type: none;
+}
+
+.left ul li {
+  display: inline-flex;
+
+}
+
+.centre {
+  border: 3px solid;
+  align-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: yellowgreen;
+
+}
+
+.right {
+  border: 3px solid;
+  align-items: center;
+  display: inline-flex;
+  background-color: chartreuse;
+}
+
+.search {
+  border: 3px solid;
+  align-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: blanchedalmond;
+  justify-content: flex-end;
+
+}
+
+.findAStore {
+  border: 3px solid;
+  align-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+
+/* --------------------------------------------CSS coding for tommyH1 Background------------------------------------------------------------- */
+
+.tommyH1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageTH1 {
+  background-color: aquamarine;
+  background-image: url("/images/TommyH1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1517px;
+  height: 999px;
+
+}
+
+.contentITH1 {
+  /* border: 2px solid; */
+  /* background-color: brown; */
+  color: #ffffff;
+  font-family: sans-serif;
+
+  position: absolute;
+  top: 486px;
+  right: 311px;
+  z-index: +2;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 0.2;
+  letter-spacing: -0.071em;
+  font-style: normal;
+
+
+
+}
+
+.subCITH1 {
+  /* background-color: chartreuse; */
+  color: #ffffff;
+  position: absolute;
+  right: 513px;
+  top: 643px;
+  font-size: 19px;
+  line-height: 1.4;
+  letter-spacing: 0.068em;
+  font-weight: 500;
+}
+
+.textTH1 {
+  /* background-color: brown; */
+  /* border: 3px solid; */
+  position: relative;
+  font-size: 33px;
+  padding: 162px;
+  bottom: 0px;
+  color: #00174f;
+  font-family: system-ui;
+  height: 171px;
+}
+
+
+
+.discover {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  position: relative;
+  top: -175px;
+
+}
+
+.discover div {
+  background-color: #00174f;
+  border: 2px solid;
+  /* position: relative; */
+  padding: 16px;
+  width: 167px;
+  height: 18px;
+  font-weight: 900;
+  font-size: 14px;
+  display: inline-flex;
+  color: #ffffff;
+  justify-content: center;
+
+
+}
+
+
+/* --------------------------------------------CSS coding for tommyH2 Background------------------------------------------------------------- */
+
+.tommyH2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  /* background-color: chocolate; */
+  height: 1006px;
+  width: 1521px;
+}
+
+#imageTH2 {
+  /* background-color: #00174f; */
+  /* background-color: #1c93a8; */
+  background-color: #f5f5f5;
+  /* border: 3px solid ; */
+  background-image: url(/images/TommyH3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1006px;
+  width: 1005px;
+
+  color: #00174f;
+
+}
+
+#tommyH2 div {
+  background-color: #f5f5f5;
+  /* margin: 0px; */
+  width: 515px;
+
+}
+
+#content {
+  /* background-color: #585e6d; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* height: 50%; */
+  top: 50%;
+  width: 407px;
+  height: 90px;
+  right: -58px;
+  font-size: 37px;
+  color: #00174f;
+}
+
+
+#content2 {
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* height: 50%; */
+  top: 51%;
+  width: 407px;
+  height: 62px;
+  right: -58px;
+  font-size: 20px;
+  color: #00174f;
+}
+
+#explore {
+  background-color: #00174f;
+  border: 2px solid;
+  position: relative;
+  top: 55%;
+  right: -59px;
+  padding: 16px;
+  width: 167px;
+  height: 18px;
+  font-weight: 900;
+  font-size: 14px;
+  display: inline-flex;
+  color: #ffffff;
+  justify-content: center;
+
+}
+
+#tommylast {
+  /* background-color: #00174f; */
+  font-family: sans-serif;
+  ;
+  height: 179px;
+  padding: 147px;
+  color: #cbcfdb;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* --------------------------------------------CSS coding for tommyH2 Background------------------------------------------------------------- */
+
+
+#tommyH3 {
+  background-color: #f5f5f5;
+  height: 753px;
+
+  /* height: 100%; */
+
+}
+
+#image1TommyH3 {
+  background-color: aqua;
+  background-image: url("/images/TommyH4.jpg");
+  height: 710px;
+  background-repeat: no-repeat;
+  box-shadow: #00174f 10px 10px;
+  width: 40vw;
+  background-size: cover;
+  position: relative;
+  right: -102px;
+  top: -85px;
+}
+
+#image2TommyH3 {
+  background-color: blueviolet;
+  background-image: url("/images/TommyH5.webp");
+  height: 697px;
+  background-repeat: no-repeat;
+  width: 40vw;
+  box-shadow: #cc0c2f 10px 10px;
+  background-size: cover;
+  position: relative;
+  left: 788px;
+  top: -566px;
+
+}
+
+
+
+#imageTH4 {
+  /* background-color: #00174f; */
+  /* background-color: #1c93a8; */
+  /* background-color: #f5f5f5; */
+  /* border: 3px solid ; */
+  background-image: url("/images/TommyH5.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  height: 1006px;
+  width: 1005px;
+  top: 153px;
+  background-size: contain;
+  color: #00174f;
+
+}
+
+
+#picChild {
+  background-color: #00174f;
+  height: 998px;
+  position: relative;
+  top: 198px;
+  background-image: url(/images/TommyH2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#picChild div {
+
+  font-weight: 900;
+  line-height: 1.1;
+  font-size: 101px;
+  /* background-color: #cc0c2f; */
+  height: 217px;
+  width: 689px;
+  position: absolute;
+  top: 50%;
+  right: 26%;
+  color: #f5f5f5;
+
+}
+
+.childPictextTH1 {
+  /* background-color: brown; 
+     border: 3px solid;  */
+  position: relative;
+  font-size: 33px;
+  padding: 162px;
+  bottom: 0px;
+  color: #00174f;
+  font-family: system-ui;
+  height: 171px;
+  top: 155px;
+}
+
+
+.discover2 {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  position: relative;
+  top: 0px;
+
+}
+
+
+.discover2 div {
+  background-color: #00174f;
+  border: 2px solid;
+  /* position: relative; */
+  padding: 16px;
+  width: 167px;
+  height: 18px;
+  font-weight: 900;
+  font-size: 14px;
+  display: inline-flex;
+  color: #ffffff;
+  justify-content: center;
+
+
+}
+
+
+.exploreimg {
+  background-image: url(/images/last.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 56.8vh;
+  width: 65vw;
+  position: relative;
+}
+
+.explore {
+  height: 57vh;
+  width: 100vw;
+  display: flex;
+
+  justify-content: center;
+}
+
+
+
+.footer {
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #022145;
+  padding-top: 10vh;
+  margin-top: 52vh;
+}
+
+.footer-primary-info {
+  height: 50vh;
+  width: 60vw;
+
+  /* border: 2px solid #ffffff; */
+  display: flex;
+}
+
+
+.footer-info {
+  height: 50vh;
+  width: 15vw;
+
+  /* border: 2px solid #ffffff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info h3 {
+  font-size: 2.5vh;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer-info h4 {
+  font-size: 2.5vh;
+  color: #ffffff;
+  font-weight: 700;
+  padding-top: 10vh;
+}
+
+.footer-info ul li {
+  /* padding: 1.5vh; */
+  list-style-type: none;
+  padding-top: 2.8vh;
+
+
+}
+
+.footer-info ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2.3vh;
+  font-weight: 100;
+
+
+}
+
+.footer-logo-img {
+  height: 10vh;
+  width: 15vw;
+  background-image: url(images/tommy/WhiteColor-Tommy-Hilfiger-Logo.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.footer-info-img {
+  height: 50vh;
+  width: 15vw;
+  /* border: 2px solid #ffffff; */
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-second {
+  height: 15vh;
+  width: 100vw;
+  background-color: #cc0c2f;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.3vh;
+
+
+}
+
+.footer-second h5 {
+  color: #ffffff;
+  font-size: 2.5vh;
+  font-weight: 100;
+  padding-left: 10vh;
+}
+
+.footer-second ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 5vh;
+
+  font-weight: 100;
+}
+
+.footer-second ul li {
+  list-style-type: none;
+}
+
+.footer-second ul {
+  display: flex;
+}
+
+
+@media screen and (max-width : 430px){
+  
+  
+}
