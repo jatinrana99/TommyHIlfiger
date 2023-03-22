@@ -1,68 +1,82 @@
 * {
   /* box-sizing: border-box;
-    margin: 0px;
-    padding: 0px; */
+  margin: 0px;
+  padding: 0px; */
 }
 
 /* --------------------------------------------CSS coding for nav bar------------------------------------------------------------- */
 .navBar {
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  background-color: blue;
-
+  justify-content: space-around;
+  background-color: #ffffff;
+  position: sticky;
 }
 
 .left {
-  border: 3px solid;
+  /* border: 3px solid; */
   align-content: flex-start;
   list-style-type: none;
-  display: inline-flex;
-  background-color: aqua;
+  /* background-color: aqua; */
+
 
 }
 
 .left ul {
+  display: flex;
   list-style-type: none;
+  /* background-color: #cbcfdb; */
+  flex-wrap: wrap;
+  gap: 45px;
+
 }
 
 .left ul li {
-  display: inline-flex;
+  padding: 2px;
+  color: #00174f;
+
 
 }
 
 .centre {
-  border: 3px solid;
+  /* border: 3px solid; */
   align-content: center;
   display: inline-flex;
   flex-wrap: wrap;
-  background-color: yellowgreen;
+  /* background-color: white; */
+  height: 10vh;
+  width: 15vw;
+  background-image: url("/tommyImages/Tommy-Hilfiger-Logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 
 }
 
 .right {
-  border: 3px solid;
+  /* border: 3px solid; */
   align-items: center;
   display: inline-flex;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
 .search {
-  border: 3px solid;
+  /* border: 3px solid; */
   align-content: center;
-  display: inline-flex;
   flex-wrap: wrap;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   justify-content: flex-end;
+  color: #909090;
 
 }
 
 .findAStore {
-  border: 3px solid;
+  /* border: 3px solid; */
   align-content: center;
-  display: inline-flex;
+  margin-right: 6px;
+  color: #909090;
   flex-wrap: wrap;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 
@@ -155,6 +169,23 @@
 
 }
 
+.discover :hover{
+  background-color: #cc0c2f;
+  animation-name: divChange;
+  animation-duration: 2s;
+}
+
+@keyframes divChange {
+  0%{
+    width: 100%;
+    background-color: #00174f;
+  }
+  100%{
+    width: 10%;
+    background-color: #cc0c2f;
+  }
+}
+
 
 /* --------------------------------------------CSS coding for tommyH2 Background------------------------------------------------------------- */
 
@@ -234,6 +265,7 @@
   justify-content: center;
 
 }
+
 
 #tommylast {
   /* background-color: #00174f; */
@@ -353,6 +385,14 @@
 }
 
 
+.discover2 :hover{
+  background-color: #cc0c2f;
+  animation-name: divChange;
+  animation-duration: 2s;
+}
+
+
+
 .discover2 div {
   background-color: #00174f;
   border: 2px solid;
@@ -451,7 +491,7 @@
 .footer-logo-img {
   height: 10vh;
   width: 15vw;
-  background-image: url(images/tommy/WhiteColor-Tommy-Hilfiger-Logo.jpg);
+  background-image: url("/tommyImages/Tommy-Hilfiger-Logo.png");
   background-position: center;
   background-size: contain;
 }
@@ -503,7 +543,4 @@
 }
 
 
-@media screen and (max-width : 430px){
-  
-  
-}
+@media screen and (max-width : 430px) {}
