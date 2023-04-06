@@ -1,8 +1,8 @@
-* {
-  /* box-sizing: border-box;
+/* {
+  box-sizing: border-box;
   margin: 0px;
-  padding: 0px; */
-}
+  padding: 0px; 
+}  */
 
 /* --------------------------------------------CSS coding for nav bar------------------------------------------------------------- */
 .navBar {
@@ -10,6 +10,7 @@
   justify-content: space-around;
   background-color: #ffffff;
   position: sticky;
+  /*  */
 }
 
 .left {
@@ -169,18 +170,19 @@
 
 }
 
-.discover :hover{
+.discover :hover {
   background-color: #cc0c2f;
   animation-name: divChange;
   animation-duration: 2s;
 }
 
 @keyframes divChange {
-  0%{
+  0% {
     width: 100%;
     background-color: #00174f;
   }
-  100%{
+
+  100% {
     width: 10%;
     background-color: #cc0c2f;
   }
@@ -385,7 +387,7 @@
 }
 
 
-.discover2 :hover{
+.discover2 :hover {
   background-color: #cc0c2f;
   animation-name: divChange;
   animation-duration: 2s;
